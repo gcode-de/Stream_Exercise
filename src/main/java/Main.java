@@ -9,6 +9,6 @@ public class Main {
         Optional<Integer> result = numbers.stream().filter(number -> number % 2 == 0).peek(System.out::println).map(number -> number * 2).sorted().peek(System.out::println).reduce(Integer::sum);
         result.ifPresent(System.out::println);
 
-        System.out.println("test2 remote")
+        System.out.println("test1");
     }
 }
